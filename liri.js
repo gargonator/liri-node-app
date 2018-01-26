@@ -83,6 +83,7 @@ function makeAPICalls(command,search_param) {
 				makeAPICalls(command,param);
 			})
 			break;
+			
 		default:
 			console.log('Please enter valid inputs!');
 	}
