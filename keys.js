@@ -1,4 +1,4 @@
-console.log('twitter keys are loaded');
+// console.log('twitter and spotify keys are loaded');
 
 var twitterKeys = {
   consumer_key: 'bb8PEUQEONNPJw2bfIdnWFGHG',
@@ -7,4 +7,10 @@ var twitterKeys = {
   access_token_secret: 'pBLQGm5KQD0nkcrXHnLIpgxuRoqJ7qUCCmYYnB3Qb3CgC',
 }
 
-module.exports = twitterKeys;
+var spotifyKeys = {
+	id: '04e64c3def9c41c5a362fc9335177892',
+	secret: '369f77f9874b45d1820e00be2b207eef',
+}
+
+exports.twitter = twitterKeys;
+exports.spotify = spotifyKeys;
